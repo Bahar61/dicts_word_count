@@ -13,5 +13,6 @@ def word_count(file_to_count):
             final_count[word] = final_count.get(word, 0) + 1
         
     return final_count
+    file_to_count.close()
 
 print(word_count(file_to_count))
